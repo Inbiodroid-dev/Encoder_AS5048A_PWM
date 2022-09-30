@@ -1,0 +1,18 @@
+{
+    "name": "Encoder_AS5048A_PWM",
+    "version": "1.0.0",
+    "description": "Library to read encoder AS5048A rad position values using PWM",
+    "keywords": "Encoder, PWM, rad position, AS5048A",
+    "authors":
+    [
+      {
+        "name": "Mauricio Ortega",
+        "email": "dflores@novaera.edu.mx",
+        "maintainer": true
+      }
+    ],
+    "dependencies": {
+    },
+    "frameworks": "arduino",
+    "platforms": "teensy41"
+  }
