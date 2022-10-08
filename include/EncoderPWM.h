@@ -1,5 +1,4 @@
-#ifndef ENCODER_H
-#define ENCODER_H
+#pragma once
 
 #include "Arduino.h"
 
@@ -9,7 +8,7 @@ class Encoder
 {
 public:
     //Encoder class constructor
-    Encoder(uint8_t _pinPWM, int _min = 0, int _max = 903);//? value range for teensy 4.1 (4095 clock cycles / 903ms)
+    Encoder(uint8_t _pinPWM, int _min = 0, int _max = 903); // value range for teensy 4.1 (4095 clock cycles / 903ms)
 
     // initialize the encoder hardware
     void init();
@@ -54,5 +53,3 @@ private:
     int raw_count_prev;
 
 };
-
-#endif

@@ -1,4 +1,4 @@
-#include "Encoder.h"
+#include "EncoderPWM.h"
 #include "Arduino.h"
 
 /** Encoder(uint8_t _pinPWM, int _min, int _max)

@@ -1,5 +1,5 @@
 #include <SPI.h>
-#include "Encoder.h"
+#include "EncoderPWM.h"
 
 #define PWM_0 0
 #define PWM_1 1
